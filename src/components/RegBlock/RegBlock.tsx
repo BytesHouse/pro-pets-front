@@ -1,12 +1,13 @@
 import { AppleIcon, FacebookIcon, GoogleIcon, LogoAlt } from "../ui";
 import { SocialButton } from "../ui/SocialButton/SocialButton";
 import registration from "../../images/registration.png";
+import { RegForm } from "../RegForm/RegForm";
 
 export const RegBlock = () => {
   return (
     <div className="">
-      <div className="max-w-[900px] my-[50px] mx-auto border rounded-[10px] p-[15px] flex">
-        <div className="p-[20px] flex flex-col flex-1">
+      <div className="max-w-[900px] bg-white my-[50px] mx-auto border rounded-[10px] p-[15px] flex ">
+        <div className="p-[20px] flex flex-col flex-1 gap-[15px]">
           <div className="border-b">
             <LogoAlt />
             <div>
@@ -27,6 +28,8 @@ export const RegBlock = () => {
               </div>
             </div>
           </div>
+          <RegForm />
+          <p>Have an account? Sing in!</p>
         </div>
         <img className="flex-1" src={registration} alt="cat and dog" />
       </div>

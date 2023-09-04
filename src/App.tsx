@@ -1,11 +1,13 @@
 import React from "react";
-import { Header, RegBlock } from "./components";
+import "./styles/freakflags.css";
+import { Footer, Header, RegBlock } from "./components";
 
 function App() {
   return (
-    <div className="">
+    <div className="h-full login">
       <Header />
       <RegBlock />
+      <Footer />
     </div>
   );
 }

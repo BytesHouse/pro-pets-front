@@ -1,3 +1,4 @@
 import { Header } from "./Header/Header";
 import { RegBlock } from "./RegBlock/RegBlock";
-export { Header, RegBlock };
+import { Footer } from "./Footer/Footer";
+export { Header, RegBlock, Footer };
